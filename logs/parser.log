@@ -1,0 +1,83 @@
+2026-03-17 09:18:51,278 - INFO - Успешная загрузка: https://books.toscrape.com/
+2026-03-17 09:22:31,351 - INFO - Успешная загрузка: https://books.toscrape.com/
+2026-03-17 09:35:50,762 - INFO - Успешная загрузка: https://books.toscrape.com/
+2026-03-17 09:41:37,873 - INFO - Успешная загрузка: https://books.toscrape.com/
+2026-03-17 09:41:37,885 - INFO - Сохранено 20 книг в /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.csv
+2026-03-17 09:41:37,885 - INFO - Готово!
+Обработано 20 книг!
+2026-03-17 09:48:56,446 - INFO - Успешная загрузка: https://books.toscrape.com/
+2026-03-17 09:48:56,458 - INFO - Сохранено 20 книг в /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.csv
+2026-03-17 09:48:56,458 - INFO - Готово!
+Обработано 20 книг!
+2026-03-18 17:07:31,681 - INFO - Обработка страницы 1/37: https://books.toscrape.com/index.html
+2026-03-18 17:07:33,052 - INFO - Успешная загрузка: https://books.toscrape.com/index.html
+2026-03-18 17:07:33,063 - INFO - Страница 1: добавлено 20 книг (всего: 20)
+2026-03-18 17:07:34,063 - INFO - Обработка страницы 2/48: https://books.toscrape.com/catalogue/page-2.html
+2026-03-18 17:07:34,827 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-2.html
+2026-03-18 17:07:34,839 - INFO - Страница 2: добавлено 20 книг (всего: 40)
+2026-03-18 17:07:35,839 - INFO - Обработка страницы 3/48: https://books.toscrape.com/catalogue/page-3.html
+2026-03-18 17:07:37,365 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-3.html
+2026-03-18 17:07:37,378 - INFO - Страница 3: добавлено 20 книг (всего: 60)
+2026-03-18 17:07:38,378 - INFO - Обработка страницы 4/48: https://books.toscrape.com/catalogue/page-4.html
+2026-03-18 17:07:39,141 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-4.html
+2026-03-18 17:07:39,152 - INFO - Страница 4: добавлено 20 книг (всего: 80)
+2026-03-18 17:07:40,153 - INFO - Обработка страницы 5/48: https://books.toscrape.com/catalogue/page-5.html
+2026-03-18 17:07:40,923 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-5.html
+2026-03-18 17:07:40,934 - INFO - Страница 5: добавлено 20 книг (всего: 100)
+2026-03-18 17:07:41,934 - INFO - Обработка страницы 6/48: https://books.toscrape.com/catalogue/page-6.html
+2026-03-18 17:07:42,692 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-6.html
+2026-03-18 17:07:42,704 - INFO - Страница 6: добавлено 20 книг (всего: 120)
+2026-03-18 17:07:43,705 - INFO - Обработка страницы 7/48: https://books.toscrape.com/catalogue/page-7.html
+2026-03-18 17:07:44,474 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-7.html
+2026-03-18 17:07:44,485 - INFO - Страница 7: добавлено 20 книг (всего: 140)
+2026-03-18 17:07:45,485 - INFO - Обработка страницы 8/48: https://books.toscrape.com/catalogue/page-8.html
+2026-03-18 17:07:46,244 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-8.html
+2026-03-18 17:07:46,256 - INFO - Страница 8: добавлено 20 книг (всего: 160)
+2026-03-18 17:07:47,256 - INFO - Обработка страницы 9/48: https://books.toscrape.com/catalogue/page-9.html
+2026-03-18 17:07:48,006 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-9.html
+2026-03-18 17:07:48,017 - INFO - Страница 9: добавлено 20 книг (всего: 180)
+2026-03-18 17:07:49,017 - INFO - Обработка страницы 10/49: https://books.toscrape.com/catalogue/page-10.html
+2026-03-18 17:07:50,234 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-10.html
+2026-03-18 17:07:50,252 - INFO - Страница 10: добавлено 20 книг (всего: 200)
+2026-03-18 17:07:51,253 - INFO - Обработка страницы 11/49: https://books.toscrape.com/catalogue/page-11.html
+2026-03-18 17:07:52,472 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-11.html
+2026-03-18 17:07:52,483 - INFO - Страница 11: добавлено 20 книг (всего: 220)
+2026-03-18 17:07:53,483 - INFO - Обработка страницы 12/49: https://books.toscrape.com/catalogue/page-12.html
+2026-03-18 17:07:54,257 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-12.html
+2026-03-18 17:07:54,269 - INFO - Страница 12: добавлено 20 книг (всего: 240)
+2026-03-18 17:07:55,269 - INFO - Обработка страницы 13/49: https://books.toscrape.com/catalogue/page-13.html
+2026-03-18 17:07:56,022 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-13.html
+2026-03-18 17:07:56,033 - INFO - Страница 13: добавлено 20 книг (всего: 260)
+2026-03-18 17:07:57,033 - INFO - Обработка страницы 14/49: https://books.toscrape.com/catalogue/page-14.html
+2026-03-18 17:07:57,786 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-14.html
+2026-03-18 17:07:57,798 - INFO - Страница 14: добавлено 20 книг (всего: 280)
+2026-03-18 17:07:58,798 - INFO - Обработка страницы 15/49: https://books.toscrape.com/catalogue/page-15.html
+2026-03-18 17:07:59,555 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-15.html
+2026-03-18 17:07:59,566 - INFO - Страница 15: добавлено 20 книг (всего: 300)
+2026-03-18 17:08:00,566 - INFO - Обработка страницы 16/49: https://books.toscrape.com/catalogue/page-16.html
+2026-03-18 17:08:01,322 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-16.html
+2026-03-18 17:08:01,334 - INFO - Страница 16: добавлено 20 книг (всего: 320)
+2026-03-18 17:08:02,334 - INFO - Обработка страницы 17/49: https://books.toscrape.com/catalogue/page-17.html
+2026-03-18 17:08:03,100 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-17.html
+2026-03-18 17:08:03,112 - INFO - Страница 17: добавлено 20 книг (всего: 340)
+2026-03-18 17:08:04,112 - INFO - Обработка страницы 18/49: https://books.toscrape.com/catalogue/page-18.html
+2026-03-18 17:08:04,877 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-18.html
+2026-03-18 17:08:04,891 - INFO - Страница 18: добавлено 19 книг (всего: 359)
+2026-03-18 17:08:05,891 - INFO - Обработка страницы 19/49: https://books.toscrape.com/catalogue/page-19.html
+2026-03-18 17:08:53,799 - INFO - Обработка страницы 1/37: https://books.toscrape.com/index.html
+2026-03-18 17:08:54,555 - INFO - Успешная загрузка: https://books.toscrape.com/index.html
+2026-03-18 17:08:54,566 - INFO - Страница 1: добавлено 20 книг (всего: 20)
+2026-03-18 17:08:55,566 - INFO - Обработка страницы 2/48: https://books.toscrape.com/catalogue/page-2.html
+2026-03-18 17:08:56,322 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-2.html
+2026-03-18 17:08:56,334 - INFO - Страница 2: добавлено 20 книг (всего: 40)
+2026-03-18 17:08:57,334 - INFO - Обработка страницы 3/48: https://books.toscrape.com/catalogue/page-3.html
+2026-03-18 17:08:58,089 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-3.html
+2026-03-18 17:08:58,102 - INFO - Страница 3: добавлено 20 книг (всего: 60)
+2026-03-18 17:08:59,102 - INFO - Обработка страницы 4/48: https://books.toscrape.com/catalogue/page-4.html
+2026-03-18 17:08:59,862 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-4.html
+2026-03-18 17:08:59,873 - INFO - Страница 4: добавлено 20 книг (всего: 80)
+2026-03-18 17:09:00,873 - INFO - Обработка страницы 5/48: https://books.toscrape.com/catalogue/page-5.html
+2026-03-18 17:09:01,634 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-5.html
+2026-03-18 17:09:01,644 - INFO - Страница 5: добавлено 20 книг (всего: 100)
+2026-03-18 17:09:02,664 - INFO - Сохранено 100 книг в /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.csv
+2026-03-18 17:09:02,664 - INFO - Готово! Всего собрано: 100 книг
