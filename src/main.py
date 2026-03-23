@@ -3,6 +3,7 @@ import time
 from .fetcher import fetch_page
 from .parser import parse_books
 from .storage import save_to_csv, check_duplicates
+from .database import init_db, save_books, search_books
 from pathlib import Path
 
 import os # для создания папки logs
@@ -26,21 +27,24 @@ def main():
     print(f"Текущая директория: {Path.cwd()}")
     print(f"Папка data существует: {(Path.cwd() / 'data').exists()}")
 
+    init_db()
+
     seen_titles = set()
     all_books = []
 
-    url = ["https://books.toscrape.com/index.html"]
+    urls = ["https://books.toscrape.com/index.html"]
 
     for page in range(2, 6):
-        url.append(f"https://books.toscrape.com/catalogue/page-{page}.html")
+        urls.append(f"https://books.toscrape.com/catalogue/page-{page}.html")
 
-    for i, url in enumerate(url, 1):
-        logging.info(f"Обработка страницы {i}/{len(url)}: {url}")
+    for i, url in enumerate(urls, 1):
+        logging.info(f"Обработка страницы {i}/{len(urls)}: {urls}")
 
         html = fetch_page(url)
         if not html:
-            logging.warning(f"Пропускаем страницу {i}")
             continue
+            # logging.warning(f"Пропускаем страницу {i}")
+            # continue
 
         books = parse_books(html)
         books = check_duplicates(books, seen_titles)
@@ -52,9 +56,15 @@ def main():
     
     if all_books:
         save_to_csv(all_books)
-        logging.info(f"Готово! Всего собрано: {len(all_books)} книг")
+        saved, duplicates = save_books(all_books)
+        logging.info(f"Готово! Книг собрано новых: {saved}, дубликатов: {duplicates}")
     else:
         logging.error("Не удалось собрать ни одной книги")
+
+    cheap_books = search_books(max_price=20)
+    logging.info(f"Книг дешевле 20: {len(cheap_books)}")
+    for book in cheap_books[:5]:
+        logging.info(f"- {book['title']}: {book['price']}")
 
     # logging.info(f"Готово!\nОбработано {len(books)} книг!")
 

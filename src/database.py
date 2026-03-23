@@ -40,8 +40,14 @@ def save_books(books):
     conn = get_connect()
     cursor = conn.cursor()
 
+    saved_count = 0
+    duplicate_count = 0
+
     for book in books:
         try:
+            price_str = str(book['price']).replace('P', '').strip() # очистка поля от формата валюты
+            price_float = float(price_str) if price_str else 0.0 # добавлять только при наличии символа данного формата
+
             cursor.execute(''' 
                 INSERT OR IGNORE INTO books (title, price, rating)
                 VALUES (?, ?, ?)
@@ -54,11 +60,12 @@ def save_books(books):
 
         except Exception as e:
             logger.error(f"Ошибка при сохранении {book['title']}: {e}")
+            continue
 
     conn.commit()
     conn.close()
 
-    logger.info(f"Сохранено: {saved_count}, дубликантов: {duplicate_count}")
+    logger.info(f"Сохранено: {saved_count}, дубликатов: {duplicate_count}")
     return saved_count, duplicate_count
 
 def get_all_books():
@@ -82,11 +89,11 @@ def search_books(max_price=None, min_rating=None):
     params = []
 
     if max_price:
-        query += 'AND price <= ?'
+        query += ' AND price <= ?'
         params.append(max_price)
 
     if min_rating:
-        query += 'AND rating = ?'
+        query += ' AND rating = ?'
         params.append(min_rating)
 
     cursor.execute(query, params)

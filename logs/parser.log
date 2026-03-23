@@ -81,3 +81,496 @@
 2026-03-18 17:09:01,644 - INFO - Страница 5: добавлено 20 книг (всего: 100)
 2026-03-18 17:09:02,664 - INFO - Сохранено 100 книг в /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.csv
 2026-03-18 17:09:02,664 - INFO - Готово! Всего собрано: 100 книг
+2026-03-23 14:09:34,807 - INFO - База данных инициализированна /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.db
+2026-03-23 14:09:34,808 - INFO - Обработка страницы 1/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 14:09:36,271 - INFO - Успешная загрузка: https://books.toscrape.com/index.html
+2026-03-23 14:09:36,282 - INFO - Страница 1: добавлено 20 книг (всего: 20)
+2026-03-23 14:09:37,283 - INFO - Обработка страницы 2/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 14:09:38,063 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-2.html
+2026-03-23 14:09:38,075 - INFO - Страница 2: добавлено 20 книг (всего: 40)
+2026-03-23 14:09:39,075 - INFO - Обработка страницы 3/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 14:09:41,359 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-3.html
+2026-03-23 14:09:41,371 - INFO - Страница 3: добавлено 20 книг (всего: 60)
+2026-03-23 14:09:42,371 - INFO - Обработка страницы 4/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 14:09:43,444 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-4.html
+2026-03-23 14:09:43,455 - INFO - Страница 4: добавлено 20 книг (всего: 80)
+2026-03-23 14:09:44,456 - INFO - Обработка страницы 5/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 14:09:45,220 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-5.html
+2026-03-23 14:09:45,231 - INFO - Страница 5: добавлено 20 книг (всего: 100)
+2026-03-23 14:09:46,253 - INFO - Сохранено 100 книг в /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.csv
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении A Light in the Attic: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Tipping the Velvet: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Soumission: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Sharp Objects: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Sapiens: A Brief History of Humankind: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении The Requiem Red: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении The Dirty Little Secrets of Getting Your Dream Job: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении The Black Maria: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Starving Hearts (Triangular Trade Trilogy, #1): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Shakespeare's Sonnets: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Set Me Free: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Scott Pilgrim's Precious Little Life (Scott Pilgrim #1): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Rip it Up and Start Again: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Olio: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Mesaerion: The Best Science Fiction Stories 1800-1849: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Libertarianism for Beginners: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении It's Only the Himalayas: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении In Her Wake: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении How Music Works: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Chase Me (Paris Nights #2): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Black Dust: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Birdsong: A Story in Pictures: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,253 - ERROR - Ошибка при сохранении Aladdin and His Wonderful Lamp: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Worlds Elsewhere: Journeys Around Shakespeareâs Globe: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Wall and Piece: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Four Agreements: A Practical Guide to Personal Freedom: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Five Love Languages: How to Express Heartfelt Commitment to Your Mate: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Elephant Tree: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Bear and the Piano: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Sophie's World: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Penny Maybe: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Maude (1883-1993):She Grew Up with the country: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении In a Dark, Dark Wood: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Behind Closed Doors: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении You can't bury them all: Poems: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Slow States of Collapse: Poems: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Reasons to Stay Alive: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Private Paris (Private #10): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении #HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Without Borders (Wanderlove #1): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении When We Collided: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении We Love You, Charlie Freeman: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Untitled Collection: Sabbath Poems 2014: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Unicorn Tracks: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении This One Summer: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Thirst: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Torch Is Passed: A Harding Family Story: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Secret of Dreadwillow Carse: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Past Never Ends: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Natural History of Us (The Fine Art of Pretending #2): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Nameless City (The Nameless City #1): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Murder That Never Was (Forensic Instincts #5): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Most Perfect Thing: Inside (and Outside) a Bird's Egg: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Gutsy Girl: Escapades for Your Life of Epic Adventure: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Electric Pencil: Drawings from Inside State Hospital No. 3: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Death of Humanity: and the Case for Life: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Art Forger: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Age of Genius: The Seventeenth Century and the Birth of the Modern Mind: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении The Activist's Tao Te Ching: Ancient Advice for a Modern Revolution: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Soul Reader: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Security: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Saga, Volume 6 (Saga (Collected Editions) #6): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Saga, Volume 5 (Saga (Collected Editions) #5): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Reskilling America: Learning to Labor in the Twenty-First Century: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Princess Between Worlds (Wide-Awake Princess #5): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Pop Gun War, Volume 1: Gift: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Political Suicide: Missteps, Peccadilloes, Bad Calls, Backroom Hijinx, Sordid Pasts, Rotten Breaks, and Just Plain Dumb Mistakes in the Annals of American Politics: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Patience: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении orange: The Complete Collection 1 (orange: The Complete Collection #1): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Online Marketing for Busy Authors: A Step-By-Step Guide: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении On a Midnight Clear: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Obsidian (Lux #1): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении My Paris Kitchen: Recipes and Stories: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Masks and Shadows: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Mama Tried: Traditional Italian Cooking for the Screwed, Crude, Vegan, and Tattooed: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Lumberjanes Vol. 3: A Terrible Plan (Lumberjanes #9-12): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Layered: Baking, Building, and Styling Spectacular Cakes: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Judo: Seven Steps to Black Belt (an Introductory Guide for Beginners): cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении Join: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 14:09:46,254 - ERROR - Ошибка при сохранении In the Country We Love: My Family Divided: cannot access local variable 'saved_count' where it is not associated with a value
+2026-03-23 15:02:26,963 - INFO - База данных инициализированна /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.db
+2026-03-23 15:02:26,973 - INFO - Обработка страницы 1/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:02:28,126 - INFO - Успешная загрузка: https://books.toscrape.com/index.html
+2026-03-23 15:02:28,136 - INFO - Страница 1: добавлено 20 книг (всего: 20)
+2026-03-23 15:02:29,136 - INFO - Обработка страницы 2/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:02:29,909 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-2.html
+2026-03-23 15:02:29,919 - INFO - Страница 2: добавлено 20 книг (всего: 40)
+2026-03-23 15:02:30,919 - INFO - Обработка страницы 3/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:02:31,687 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-3.html
+2026-03-23 15:02:31,697 - INFO - Страница 3: добавлено 20 книг (всего: 60)
+2026-03-23 15:02:32,697 - INFO - Обработка страницы 4/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:02:33,451 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-4.html
+2026-03-23 15:02:33,462 - INFO - Страница 4: добавлено 20 книг (всего: 80)
+2026-03-23 15:02:34,462 - INFO - Обработка страницы 5/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:02:35,219 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-5.html
+2026-03-23 15:02:35,230 - INFO - Страница 5: добавлено 20 книг (всего: 100)
+2026-03-23 15:02:36,244 - INFO - Сохранено 100 книг в /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.csv
+2026-03-23 15:25:16,559 - INFO - База данных инициализированна /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.db
+2026-03-23 15:25:16,559 - INFO - Обработка страницы 1/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:25:17,704 - INFO - Успешная загрузка: https://books.toscrape.com/index.html
+2026-03-23 15:25:17,716 - INFO - Страница 1: добавлено 20 книг (всего: 20)
+2026-03-23 15:25:18,717 - INFO - Обработка страницы 2/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:25:19,485 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-2.html
+2026-03-23 15:25:19,495 - INFO - Страница 2: добавлено 20 книг (всего: 40)
+2026-03-23 15:25:20,496 - INFO - Обработка страницы 3/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:25:21,261 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-3.html
+2026-03-23 15:25:21,270 - INFO - Страница 3: добавлено 20 книг (всего: 60)
+2026-03-23 15:25:22,271 - INFO - Обработка страницы 4/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:25:23,021 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-4.html
+2026-03-23 15:25:23,032 - INFO - Страница 4: добавлено 20 книг (всего: 80)
+2026-03-23 15:25:24,032 - INFO - Обработка страницы 5/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:25:24,780 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-5.html
+2026-03-23 15:25:24,790 - INFO - Страница 5: добавлено 20 книг (всего: 100)
+2026-03-23 15:25:25,791 - INFO - Сохранено 100 книг в /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.csv
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении A Light in the Attic: could not convert string to float: 'Â51.77'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Tipping the Velvet: could not convert string to float: 'Â53.74'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Soumission: could not convert string to float: 'Â50.10'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Sharp Objects: could not convert string to float: 'Â47.82'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Sapiens: A Brief History of Humankind: could not convert string to float: 'Â54.23'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении The Requiem Red: could not convert string to float: 'Â22.65'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении The Dirty Little Secrets of Getting Your Dream Job: could not convert string to float: 'Â33.34'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull: could not convert string to float: 'Â17.93'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics: could not convert string to float: 'Â22.60'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении The Black Maria: could not convert string to float: 'Â52.15'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Starving Hearts (Triangular Trade Trilogy, #1): could not convert string to float: 'Â13.99'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Shakespeare's Sonnets: could not convert string to float: 'Â20.66'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Set Me Free: could not convert string to float: 'Â17.46'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Scott Pilgrim's Precious Little Life (Scott Pilgrim #1): could not convert string to float: 'Â52.29'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Rip it Up and Start Again: could not convert string to float: 'Â35.02'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991: could not convert string to float: 'Â57.25'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Olio: could not convert string to float: 'Â23.88'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Mesaerion: The Best Science Fiction Stories 1800-1849: could not convert string to float: 'Â37.59'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Libertarianism for Beginners: could not convert string to float: 'Â51.33'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении It's Only the Himalayas: could not convert string to float: 'Â45.17'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении In Her Wake: could not convert string to float: 'Â12.84'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении How Music Works: could not convert string to float: 'Â37.32'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More: could not convert string to float: 'Â30.52'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Chase Me (Paris Nights #2): could not convert string to float: 'Â25.27'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Black Dust: could not convert string to float: 'Â34.53'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Birdsong: A Story in Pictures: could not convert string to float: 'Â54.64'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana: could not convert string to float: 'Â22.50'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Aladdin and His Wonderful Lamp: could not convert string to float: 'Â53.13'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Worlds Elsewhere: Journeys Around Shakespeareâs Globe: could not convert string to float: 'Â40.30'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Wall and Piece: could not convert string to float: 'Â44.18'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении The Four Agreements: A Practical Guide to Personal Freedom: could not convert string to float: 'Â17.66'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении The Five Love Languages: How to Express Heartfelt Commitment to Your Mate: could not convert string to float: 'Â31.05'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении The Elephant Tree: could not convert string to float: 'Â23.82'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении The Bear and the Piano: could not convert string to float: 'Â36.89'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Sophie's World: could not convert string to float: 'Â15.94'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Penny Maybe: could not convert string to float: 'Â33.29'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Maude (1883-1993):She Grew Up with the country: could not convert string to float: 'Â18.02'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении In a Dark, Dark Wood: could not convert string to float: 'Â19.63'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Behind Closed Doors: could not convert string to float: 'Â52.22'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении You can't bury them all: Poems: could not convert string to float: 'Â33.63'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Slow States of Collapse: Poems: could not convert string to float: 'Â57.31'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Reasons to Stay Alive: could not convert string to float: 'Â26.41'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Private Paris (Private #10): could not convert string to float: 'Â47.61'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении #HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.: could not convert string to float: 'Â23.11'
+2026-03-23 15:25:25,791 - ERROR - Ошибка при сохранении Without Borders (Wanderlove #1): could not convert string to float: 'Â45.07'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении When We Collided: could not convert string to float: 'Â31.77'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении We Love You, Charlie Freeman: could not convert string to float: 'Â50.27'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Untitled Collection: Sabbath Poems 2014: could not convert string to float: 'Â14.27'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness: could not convert string to float: 'Â44.18'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Unicorn Tracks: could not convert string to float: 'Â18.78'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink: could not convert string to float: 'Â25.52'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2): could not convert string to float: 'Â16.28'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity: could not convert string to float: 'Â31.12'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении This One Summer: could not convert string to float: 'Â19.49'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Thirst: could not convert string to float: 'Â17.27'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Torch Is Passed: A Harding Family Story: could not convert string to float: 'Â19.09'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Secret of Dreadwillow Carse: could not convert string to float: 'Â56.13'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!: could not convert string to float: 'Â56.41'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Past Never Ends: could not convert string to float: 'Â56.50'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Natural History of Us (The Fine Art of Pretending #2): could not convert string to float: 'Â45.22'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Nameless City (The Nameless City #1): could not convert string to float: 'Â38.16'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Murder That Never Was (Forensic Instincts #5): could not convert string to float: 'Â54.11'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Most Perfect Thing: Inside (and Outside) a Bird's Egg: could not convert string to float: 'Â42.96'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy: could not convert string to float: 'Â23.89'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing: could not convert string to float: 'Â16.77'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer: could not convert string to float: 'Â20.59'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Gutsy Girl: Escapades for Your Life of Epic Adventure: could not convert string to float: 'Â37.13'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Electric Pencil: Drawings from Inside State Hospital No. 3: could not convert string to float: 'Â56.06'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Death of Humanity: and the Case for Life: could not convert string to float: 'Â58.11'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life: could not convert string to float: 'Â49.05'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Art Forger: could not convert string to float: 'Â40.76'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Age of Genius: The Seventeenth Century and the Birth of the Modern Mind: could not convert string to float: 'Â19.73'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении The Activist's Tao Te Ching: Ancient Advice for a Modern Revolution: could not convert string to float: 'Â32.24'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up: could not convert string to float: 'Â41.83'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Soul Reader: could not convert string to float: 'Â39.58'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Security: could not convert string to float: 'Â39.25'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Saga, Volume 6 (Saga (Collected Editions) #6): could not convert string to float: 'Â25.02'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Saga, Volume 5 (Saga (Collected Editions) #5): could not convert string to float: 'Â51.04'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Reskilling America: Learning to Labor in the Twenty-First Century: could not convert string to float: 'Â19.83'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15): could not convert string to float: 'Â50.40'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1): could not convert string to float: 'Â13.61'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Princess Between Worlds (Wide-Awake Princess #5): could not convert string to float: 'Â13.34'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Pop Gun War, Volume 1: Gift: could not convert string to float: 'Â18.97'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Political Suicide: Missteps, Peccadilloes, Bad Calls, Backroom Hijinx, Sordid Pasts, Rotten Breaks, and Just Plain Dumb Mistakes in the Annals of American Politics: could not convert string to float: 'Â36.28'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Patience: could not convert string to float: 'Â10.16'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1): could not convert string to float: 'Â15.44'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении orange: The Complete Collection 1 (orange: The Complete Collection #1): could not convert string to float: 'Â48.41'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Online Marketing for Busy Authors: A Step-By-Step Guide: could not convert string to float: 'Â46.35'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении On a Midnight Clear: could not convert string to float: 'Â14.07'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Obsidian (Lux #1): could not convert string to float: 'Â14.86'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении My Paris Kitchen: Recipes and Stories: could not convert string to float: 'Â33.37'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Masks and Shadows: could not convert string to float: 'Â56.40'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Mama Tried: Traditional Italian Cooking for the Screwed, Crude, Vegan, and Tattooed: could not convert string to float: 'Â14.02'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8): could not convert string to float: 'Â46.91'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4): could not convert string to float: 'Â45.61'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Lumberjanes Vol. 3: A Terrible Plan (Lumberjanes #9-12): could not convert string to float: 'Â19.92'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Layered: Baking, Building, and Styling Spectacular Cakes: could not convert string to float: 'Â40.11'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Judo: Seven Steps to Black Belt (an Introductory Guide for Beginners): could not convert string to float: 'Â53.90'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении Join: could not convert string to float: 'Â35.67'
+2026-03-23 15:25:25,792 - ERROR - Ошибка при сохранении In the Country We Love: My Family Divided: could not convert string to float: 'Â22.00'
+2026-03-23 15:25:25,792 - INFO - Сохранено: 0, дубликатов: 0
+2026-03-23 15:25:25,792 - INFO - Готово! Книг собрано новых: 0, дубликатов: 0
+2026-03-23 15:27:45,092 - INFO - База данных инициализированна /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.db
+2026-03-23 15:27:45,092 - INFO - Обработка страницы 1/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:27:46,150 - INFO - Успешная загрузка: https://books.toscrape.com/index.html
+2026-03-23 15:27:46,160 - INFO - Страница 1: добавлено 20 книг (всего: 20)
+2026-03-23 15:27:47,160 - INFO - Обработка страницы 2/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:27:47,913 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-2.html
+2026-03-23 15:27:47,924 - INFO - Страница 2: добавлено 20 книг (всего: 40)
+2026-03-23 15:27:48,924 - INFO - Обработка страницы 3/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:27:50,225 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-3.html
+2026-03-23 15:27:50,237 - INFO - Страница 3: добавлено 20 книг (всего: 60)
+2026-03-23 15:27:51,237 - INFO - Обработка страницы 4/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:27:51,990 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-4.html
+2026-03-23 15:27:52,001 - INFO - Страница 4: добавлено 20 книг (всего: 80)
+2026-03-23 15:27:53,001 - INFO - Обработка страницы 5/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:27:53,753 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-5.html
+2026-03-23 15:27:53,765 - INFO - Страница 5: добавлено 20 книг (всего: 100)
+2026-03-23 15:27:54,766 - INFO - Сохранено 100 книг в /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.csv
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении A Light in the Attic: could not convert string to float: 'Â51.77'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Tipping the Velvet: could not convert string to float: 'Â53.74'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Soumission: could not convert string to float: 'Â50.10'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Sharp Objects: could not convert string to float: 'Â47.82'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Sapiens: A Brief History of Humankind: could not convert string to float: 'Â54.23'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении The Requiem Red: could not convert string to float: 'Â22.65'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении The Dirty Little Secrets of Getting Your Dream Job: could not convert string to float: 'Â33.34'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull: could not convert string to float: 'Â17.93'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics: could not convert string to float: 'Â22.60'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении The Black Maria: could not convert string to float: 'Â52.15'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Starving Hearts (Triangular Trade Trilogy, #1): could not convert string to float: 'Â13.99'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Shakespeare's Sonnets: could not convert string to float: 'Â20.66'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Set Me Free: could not convert string to float: 'Â17.46'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Scott Pilgrim's Precious Little Life (Scott Pilgrim #1): could not convert string to float: 'Â52.29'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Rip it Up and Start Again: could not convert string to float: 'Â35.02'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991: could not convert string to float: 'Â57.25'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Olio: could not convert string to float: 'Â23.88'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Mesaerion: The Best Science Fiction Stories 1800-1849: could not convert string to float: 'Â37.59'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Libertarianism for Beginners: could not convert string to float: 'Â51.33'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении It's Only the Himalayas: could not convert string to float: 'Â45.17'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении In Her Wake: could not convert string to float: 'Â12.84'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении How Music Works: could not convert string to float: 'Â37.32'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More: could not convert string to float: 'Â30.52'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Chase Me (Paris Nights #2): could not convert string to float: 'Â25.27'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Black Dust: could not convert string to float: 'Â34.53'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Birdsong: A Story in Pictures: could not convert string to float: 'Â54.64'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana: could not convert string to float: 'Â22.50'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Aladdin and His Wonderful Lamp: could not convert string to float: 'Â53.13'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Worlds Elsewhere: Journeys Around Shakespeareâs Globe: could not convert string to float: 'Â40.30'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Wall and Piece: could not convert string to float: 'Â44.18'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении The Four Agreements: A Practical Guide to Personal Freedom: could not convert string to float: 'Â17.66'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении The Five Love Languages: How to Express Heartfelt Commitment to Your Mate: could not convert string to float: 'Â31.05'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении The Elephant Tree: could not convert string to float: 'Â23.82'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении The Bear and the Piano: could not convert string to float: 'Â36.89'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Sophie's World: could not convert string to float: 'Â15.94'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Penny Maybe: could not convert string to float: 'Â33.29'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Maude (1883-1993):She Grew Up with the country: could not convert string to float: 'Â18.02'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении In a Dark, Dark Wood: could not convert string to float: 'Â19.63'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Behind Closed Doors: could not convert string to float: 'Â52.22'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении You can't bury them all: Poems: could not convert string to float: 'Â33.63'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Slow States of Collapse: Poems: could not convert string to float: 'Â57.31'
+2026-03-23 15:27:54,766 - ERROR - Ошибка при сохранении Reasons to Stay Alive: could not convert string to float: 'Â26.41'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Private Paris (Private #10): could not convert string to float: 'Â47.61'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении #HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.: could not convert string to float: 'Â23.11'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Without Borders (Wanderlove #1): could not convert string to float: 'Â45.07'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении When We Collided: could not convert string to float: 'Â31.77'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении We Love You, Charlie Freeman: could not convert string to float: 'Â50.27'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Untitled Collection: Sabbath Poems 2014: could not convert string to float: 'Â14.27'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness: could not convert string to float: 'Â44.18'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Unicorn Tracks: could not convert string to float: 'Â18.78'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink: could not convert string to float: 'Â25.52'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2): could not convert string to float: 'Â16.28'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity: could not convert string to float: 'Â31.12'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении This One Summer: could not convert string to float: 'Â19.49'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Thirst: could not convert string to float: 'Â17.27'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Torch Is Passed: A Harding Family Story: could not convert string to float: 'Â19.09'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Secret of Dreadwillow Carse: could not convert string to float: 'Â56.13'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!: could not convert string to float: 'Â56.41'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Past Never Ends: could not convert string to float: 'Â56.50'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Natural History of Us (The Fine Art of Pretending #2): could not convert string to float: 'Â45.22'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Nameless City (The Nameless City #1): could not convert string to float: 'Â38.16'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Murder That Never Was (Forensic Instincts #5): could not convert string to float: 'Â54.11'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Most Perfect Thing: Inside (and Outside) a Bird's Egg: could not convert string to float: 'Â42.96'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy: could not convert string to float: 'Â23.89'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing: could not convert string to float: 'Â16.77'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer: could not convert string to float: 'Â20.59'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Gutsy Girl: Escapades for Your Life of Epic Adventure: could not convert string to float: 'Â37.13'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Electric Pencil: Drawings from Inside State Hospital No. 3: could not convert string to float: 'Â56.06'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Death of Humanity: and the Case for Life: could not convert string to float: 'Â58.11'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life: could not convert string to float: 'Â49.05'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Art Forger: could not convert string to float: 'Â40.76'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Age of Genius: The Seventeenth Century and the Birth of the Modern Mind: could not convert string to float: 'Â19.73'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении The Activist's Tao Te Ching: Ancient Advice for a Modern Revolution: could not convert string to float: 'Â32.24'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up: could not convert string to float: 'Â41.83'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Soul Reader: could not convert string to float: 'Â39.58'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Security: could not convert string to float: 'Â39.25'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Saga, Volume 6 (Saga (Collected Editions) #6): could not convert string to float: 'Â25.02'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Saga, Volume 5 (Saga (Collected Editions) #5): could not convert string to float: 'Â51.04'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Reskilling America: Learning to Labor in the Twenty-First Century: could not convert string to float: 'Â19.83'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15): could not convert string to float: 'Â50.40'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1): could not convert string to float: 'Â13.61'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Princess Between Worlds (Wide-Awake Princess #5): could not convert string to float: 'Â13.34'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Pop Gun War, Volume 1: Gift: could not convert string to float: 'Â18.97'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Political Suicide: Missteps, Peccadilloes, Bad Calls, Backroom Hijinx, Sordid Pasts, Rotten Breaks, and Just Plain Dumb Mistakes in the Annals of American Politics: could not convert string to float: 'Â36.28'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Patience: could not convert string to float: 'Â10.16'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1): could not convert string to float: 'Â15.44'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении orange: The Complete Collection 1 (orange: The Complete Collection #1): could not convert string to float: 'Â48.41'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Online Marketing for Busy Authors: A Step-By-Step Guide: could not convert string to float: 'Â46.35'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении On a Midnight Clear: could not convert string to float: 'Â14.07'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Obsidian (Lux #1): could not convert string to float: 'Â14.86'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении My Paris Kitchen: Recipes and Stories: could not convert string to float: 'Â33.37'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Masks and Shadows: could not convert string to float: 'Â56.40'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Mama Tried: Traditional Italian Cooking for the Screwed, Crude, Vegan, and Tattooed: could not convert string to float: 'Â14.02'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8): could not convert string to float: 'Â46.91'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4): could not convert string to float: 'Â45.61'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Lumberjanes Vol. 3: A Terrible Plan (Lumberjanes #9-12): could not convert string to float: 'Â19.92'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Layered: Baking, Building, and Styling Spectacular Cakes: could not convert string to float: 'Â40.11'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Judo: Seven Steps to Black Belt (an Introductory Guide for Beginners): could not convert string to float: 'Â53.90'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении Join: could not convert string to float: 'Â35.67'
+2026-03-23 15:27:54,767 - ERROR - Ошибка при сохранении In the Country We Love: My Family Divided: could not convert string to float: 'Â22.00'
+2026-03-23 15:27:54,767 - INFO - Сохранено: 0, дубликатов: 0
+2026-03-23 15:27:54,767 - INFO - Готово! Книг собрано новых: 0, дубликатов: 0
+2026-03-23 15:27:54,777 - INFO - Книг дешевле 20: 0
+2026-03-23 15:33:15,689 - INFO - База данных инициализированна /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.db
+2026-03-23 15:33:15,689 - INFO - Обработка страницы 1/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:33:17,219 - INFO - Успешная загрузка: https://books.toscrape.com/index.html
+2026-03-23 15:33:17,230 - INFO - Страница 1: добавлено 20 книг (всего: 20)
+2026-03-23 15:33:18,230 - INFO - Обработка страницы 2/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:33:18,993 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-2.html
+2026-03-23 15:33:19,003 - INFO - Страница 2: добавлено 20 книг (всего: 40)
+2026-03-23 15:33:20,003 - INFO - Обработка страницы 3/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:33:20,752 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-3.html
+2026-03-23 15:33:20,764 - INFO - Страница 3: добавлено 20 книг (всего: 60)
+2026-03-23 15:33:21,764 - INFO - Обработка страницы 4/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:33:22,536 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-4.html
+2026-03-23 15:33:22,546 - INFO - Страница 4: добавлено 20 книг (всего: 80)
+2026-03-23 15:33:23,546 - INFO - Обработка страницы 5/5: ['https://books.toscrape.com/index.html', 'https://books.toscrape.com/catalogue/page-2.html', 'https://books.toscrape.com/catalogue/page-3.html', 'https://books.toscrape.com/catalogue/page-4.html', 'https://books.toscrape.com/catalogue/page-5.html']
+2026-03-23 15:33:24,301 - INFO - Успешная загрузка: https://books.toscrape.com/catalogue/page-5.html
+2026-03-23 15:33:24,311 - INFO - Страница 5: добавлено 20 книг (всего: 100)
+2026-03-23 15:33:25,312 - INFO - Сохранено 100 книг в /home/bazzaroff/Рабочий стол/PythonProjects/PyLearn/PythonPetProjects/sitebook-parser/data/books.csv
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении A Light in the Attic: could not convert string to float: 'Â51.77'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Tipping the Velvet: could not convert string to float: 'Â53.74'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Soumission: could not convert string to float: 'Â50.10'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Sharp Objects: could not convert string to float: 'Â47.82'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Sapiens: A Brief History of Humankind: could not convert string to float: 'Â54.23'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении The Requiem Red: could not convert string to float: 'Â22.65'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении The Dirty Little Secrets of Getting Your Dream Job: could not convert string to float: 'Â33.34'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull: could not convert string to float: 'Â17.93'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics: could not convert string to float: 'Â22.60'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении The Black Maria: could not convert string to float: 'Â52.15'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Starving Hearts (Triangular Trade Trilogy, #1): could not convert string to float: 'Â13.99'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Shakespeare's Sonnets: could not convert string to float: 'Â20.66'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Set Me Free: could not convert string to float: 'Â17.46'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Scott Pilgrim's Precious Little Life (Scott Pilgrim #1): could not convert string to float: 'Â52.29'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Rip it Up and Start Again: could not convert string to float: 'Â35.02'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991: could not convert string to float: 'Â57.25'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Olio: could not convert string to float: 'Â23.88'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Mesaerion: The Best Science Fiction Stories 1800-1849: could not convert string to float: 'Â37.59'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Libertarianism for Beginners: could not convert string to float: 'Â51.33'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении It's Only the Himalayas: could not convert string to float: 'Â45.17'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении In Her Wake: could not convert string to float: 'Â12.84'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении How Music Works: could not convert string to float: 'Â37.32'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More: could not convert string to float: 'Â30.52'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Chase Me (Paris Nights #2): could not convert string to float: 'Â25.27'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Black Dust: could not convert string to float: 'Â34.53'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Birdsong: A Story in Pictures: could not convert string to float: 'Â54.64'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana: could not convert string to float: 'Â22.50'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Aladdin and His Wonderful Lamp: could not convert string to float: 'Â53.13'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Worlds Elsewhere: Journeys Around Shakespeareâs Globe: could not convert string to float: 'Â40.30'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Wall and Piece: could not convert string to float: 'Â44.18'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении The Four Agreements: A Practical Guide to Personal Freedom: could not convert string to float: 'Â17.66'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении The Five Love Languages: How to Express Heartfelt Commitment to Your Mate: could not convert string to float: 'Â31.05'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении The Elephant Tree: could not convert string to float: 'Â23.82'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении The Bear and the Piano: could not convert string to float: 'Â36.89'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Sophie's World: could not convert string to float: 'Â15.94'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Penny Maybe: could not convert string to float: 'Â33.29'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Maude (1883-1993):She Grew Up with the country: could not convert string to float: 'Â18.02'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении In a Dark, Dark Wood: could not convert string to float: 'Â19.63'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Behind Closed Doors: could not convert string to float: 'Â52.22'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении You can't bury them all: Poems: could not convert string to float: 'Â33.63'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Slow States of Collapse: Poems: could not convert string to float: 'Â57.31'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Reasons to Stay Alive: could not convert string to float: 'Â26.41'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Private Paris (Private #10): could not convert string to float: 'Â47.61'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении #HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.: could not convert string to float: 'Â23.11'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Without Borders (Wanderlove #1): could not convert string to float: 'Â45.07'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении When We Collided: could not convert string to float: 'Â31.77'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении We Love You, Charlie Freeman: could not convert string to float: 'Â50.27'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Untitled Collection: Sabbath Poems 2014: could not convert string to float: 'Â14.27'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness: could not convert string to float: 'Â44.18'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Unicorn Tracks: could not convert string to float: 'Â18.78'
+2026-03-23 15:33:25,312 - ERROR - Ошибка при сохранении Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink: could not convert string to float: 'Â25.52'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2): could not convert string to float: 'Â16.28'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity: could not convert string to float: 'Â31.12'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении This One Summer: could not convert string to float: 'Â19.49'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Thirst: could not convert string to float: 'Â17.27'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Torch Is Passed: A Harding Family Story: could not convert string to float: 'Â19.09'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Secret of Dreadwillow Carse: could not convert string to float: 'Â56.13'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!: could not convert string to float: 'Â56.41'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Past Never Ends: could not convert string to float: 'Â56.50'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Natural History of Us (The Fine Art of Pretending #2): could not convert string to float: 'Â45.22'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Nameless City (The Nameless City #1): could not convert string to float: 'Â38.16'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Murder That Never Was (Forensic Instincts #5): could not convert string to float: 'Â54.11'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Most Perfect Thing: Inside (and Outside) a Bird's Egg: could not convert string to float: 'Â42.96'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy: could not convert string to float: 'Â23.89'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing: could not convert string to float: 'Â16.77'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer: could not convert string to float: 'Â20.59'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Gutsy Girl: Escapades for Your Life of Epic Adventure: could not convert string to float: 'Â37.13'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Electric Pencil: Drawings from Inside State Hospital No. 3: could not convert string to float: 'Â56.06'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Death of Humanity: and the Case for Life: could not convert string to float: 'Â58.11'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life: could not convert string to float: 'Â49.05'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Art Forger: could not convert string to float: 'Â40.76'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Age of Genius: The Seventeenth Century and the Birth of the Modern Mind: could not convert string to float: 'Â19.73'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении The Activist's Tao Te Ching: Ancient Advice for a Modern Revolution: could not convert string to float: 'Â32.24'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up: could not convert string to float: 'Â41.83'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Soul Reader: could not convert string to float: 'Â39.58'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Security: could not convert string to float: 'Â39.25'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Saga, Volume 6 (Saga (Collected Editions) #6): could not convert string to float: 'Â25.02'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Saga, Volume 5 (Saga (Collected Editions) #5): could not convert string to float: 'Â51.04'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Reskilling America: Learning to Labor in the Twenty-First Century: could not convert string to float: 'Â19.83'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15): could not convert string to float: 'Â50.40'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1): could not convert string to float: 'Â13.61'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Princess Between Worlds (Wide-Awake Princess #5): could not convert string to float: 'Â13.34'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Pop Gun War, Volume 1: Gift: could not convert string to float: 'Â18.97'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Political Suicide: Missteps, Peccadilloes, Bad Calls, Backroom Hijinx, Sordid Pasts, Rotten Breaks, and Just Plain Dumb Mistakes in the Annals of American Politics: could not convert string to float: 'Â36.28'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Patience: could not convert string to float: 'Â10.16'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1): could not convert string to float: 'Â15.44'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении orange: The Complete Collection 1 (orange: The Complete Collection #1): could not convert string to float: 'Â48.41'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Online Marketing for Busy Authors: A Step-By-Step Guide: could not convert string to float: 'Â46.35'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении On a Midnight Clear: could not convert string to float: 'Â14.07'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Obsidian (Lux #1): could not convert string to float: 'Â14.86'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении My Paris Kitchen: Recipes and Stories: could not convert string to float: 'Â33.37'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Masks and Shadows: could not convert string to float: 'Â56.40'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Mama Tried: Traditional Italian Cooking for the Screwed, Crude, Vegan, and Tattooed: could not convert string to float: 'Â14.02'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8): could not convert string to float: 'Â46.91'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4): could not convert string to float: 'Â45.61'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Lumberjanes Vol. 3: A Terrible Plan (Lumberjanes #9-12): could not convert string to float: 'Â19.92'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Layered: Baking, Building, and Styling Spectacular Cakes: could not convert string to float: 'Â40.11'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Judo: Seven Steps to Black Belt (an Introductory Guide for Beginners): could not convert string to float: 'Â53.90'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении Join: could not convert string to float: 'Â35.67'
+2026-03-23 15:33:25,313 - ERROR - Ошибка при сохранении In the Country We Love: My Family Divided: could not convert string to float: 'Â22.00'
+2026-03-23 15:33:25,313 - INFO - Сохранено: 0, дубликатов: 0
+2026-03-23 15:33:25,313 - INFO - Готово! Книг собрано новых: 0, дубликатов: 0
+2026-03-23 15:33:25,313 - INFO - Книг дешевле 20: 0
