@@ -6,8 +6,13 @@ from .storage import save_to_csv, check_duplicates
 from .database import init_db, save_books, search_books
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 import os # для создания папки logs
 
+load_dotenv()
+
+BASE_URL = os.getenv('BASE_URL', 'https://books.toscrape.com')
 
 # os.makedirs('logs', exist_ok=True) # Создание папки Logs
 # os.makedirs('data', exist_ok=True) # Создание папки Data

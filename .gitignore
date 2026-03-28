@@ -1,0 +1,42 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# === Виртуальное окружение ===
+venv/
+ENV/
+env/
+spvenv/
+
+
+# === Настройки (секреты) ===
+.env
+.env.txt
+!.env.example
+
+# === Логи ===
+logs/
+*.log
+log_*
+
+# === Данные ===
+*.db
+data/*.csv
+data/*.db
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Логи ===
+logs/
+*.log
+log_*
